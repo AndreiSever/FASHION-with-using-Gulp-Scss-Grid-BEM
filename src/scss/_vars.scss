@@ -2,11 +2,17 @@
 // colors
 :root {
   // base
-  --font-family: "Open Sans", sans-serif;
+  --font-family: "PTSerif", sans-serif;
   --content-width: 1170px;
+  --content-fluid: 1760px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
-
-  // colors
+  --container-fluid-width: calc(var(--content-fluid) + (var(var(--container-offset)) * 2));
+  // color
   --light-color: #fff;
+  --hover-text: #c9a96e;
+  --black-text: #171717;
+  --content-text: #666;
+  --icon-text: #999;
+  --page-text: #a2a2a2;
 }
