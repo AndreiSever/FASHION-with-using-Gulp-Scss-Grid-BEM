@@ -9,11 +9,6 @@
 
   &__item {
     margin-right: 34px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    text-decoration: none;
-    color: var(--black-text);
   }
 
   &__item:last-child {
@@ -21,6 +16,14 @@
   }
 
   &__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    color: var(--black-text);
+  }
 
+  &__link:hover {
+    color: var(--hover-text);
   }
 }
