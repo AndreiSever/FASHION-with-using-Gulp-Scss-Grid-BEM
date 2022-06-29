@@ -1,0 +1,39 @@
+.time-posting {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  &__link {
+    text-decoration: none;
+
+    &_white {
+      color: var(--light-color);
+    }
+
+    &_grey{
+      color: var(--by-grey);
+    }
+
+    &_dark-grey{
+      color: var(--content-text);
+    }
+
+    &_light-grey{
+      color: var(--by-light-grey);
+    }
+  }
+
+  &__link:hover {
+    text-decoration: underline;
+  }
+
+  &__date, &__author {
+    margin-right: 14px;
+  }
+
+  &__link_dark-grey{
+
+  }
+}
