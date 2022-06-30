@@ -12,15 +12,17 @@
       color: var(--light-color);
     }
 
-    &_grey{
+    &_grey {
       color: var(--by-grey);
     }
 
-    &_dark-grey{
+    &_dark-grey {
       color: var(--content-text);
     }
+  }
 
-    &_light-grey{
+  &__first-word {
+    &_light-grey {
       color: var(--by-light-grey);
     }
   }
@@ -31,9 +33,5 @@
 
   &__date, &__author {
     margin-right: 14px;
-  }
-
-  &__link_dark-grey{
-
   }
 }
