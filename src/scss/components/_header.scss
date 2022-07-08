@@ -4,6 +4,7 @@
 
   &__container-fluid {
     @include flex-all-sb;
+
     padding-top: 33px;
     padding-bottom: 33px;
   }
