@@ -6,32 +6,9 @@
   background-repeat: no-repeat;
   background-color: #fff;
 
-  &__post {
+  &__blog-post {
     padding-top: 488px;
     padding-bottom: 59px;
     max-width: 560px;
-  }
-
-  &__tag {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: var(--light-color);
-  }
-
-  &__title {
-    margin: 0;
-    margin-bottom: 10px;
-    padding: 0;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 50px;
-    color: var(--light-color);
-  }
-
-  &__timeposting {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
   }
 }
